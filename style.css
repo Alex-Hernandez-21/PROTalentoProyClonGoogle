@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-image: url(https://images.unsplash.com/photo-1472213984618-c79aaec7fef0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1455&q=80);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+         
+}
+
+nav .nav-bar img{
+    border-radius: 50%;
+}
+
+#section-1{
+    border: 1px solid black;
+    width: auto;
+    height: 200px;
+    
+}
+main .google{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 100px;
+    color: white;
+    
+}
