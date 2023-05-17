@@ -57,7 +57,10 @@ main{
     outline: 0;
 }
 
-
+input #placeholder{
+    border-right-width: 20px;
+    list-style: center;
+}
 .section-3{
     display: flex;
     justify-content: center;
@@ -68,4 +71,7 @@ main{
 button{
     width: 150px;
     cursor: pointer;
+    height: 34px;
+    border-radius: 4px;
+    
 }
