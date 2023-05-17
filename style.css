@@ -72,12 +72,24 @@ nav .nav-bar img{
 }
 
 .div-link{
-    background-color: rgb(99, 99, 138);
+    /* background-color: rgb(99, 99, 138); */
     width: 70px;
     height: 70px;
     border: 4px;
     color: white;
-    font-weight: bold;
+    cursor: pointer;
+    display: table;
+    border-radius: 5px;
+    
+}
+.div-link a{
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.div-link:hover{
+    opacity: 2;
 }
 
 
