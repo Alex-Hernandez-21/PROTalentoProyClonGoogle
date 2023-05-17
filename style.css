@@ -63,7 +63,7 @@ nav .nav-bar img{
 }
 
 .section-3{  
-    width: 350px;  
+    width: 400px;  
     display: flex;
     /* background-color: brown; */
     justify-content: center;
@@ -89,7 +89,7 @@ nav .nav-bar img{
 }
 
 .div-link:hover{
-    opacity: 2;
+    background-color: rgb(134, 129, 128);
 }
 
 
