@@ -28,13 +28,6 @@ nav .nav-bar img{
     border-radius: 50%;
 }
 
-main{
-    margin-top: 0;
-    text-align: center;
-    border: 0;
-
-}
-
 .section-1{   
     height: 160px;  
     /* border: 1px solid black; */
@@ -42,12 +35,16 @@ main{
     font-size: 100px;
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: end;   
+    justify-content: center;   
         
 }
+.container{
+    display: flex;
+    justify-content: center;
 
-.section-2 input{
+}
+
+.section-2{
     height: 38px;
     width: 500px;
     margin: 30px;
@@ -55,23 +52,32 @@ main{
     cursor: pointer;
     border: 0;
     outline: 0;
-}
-
-input #placeholder{
-    border-right-width: 20px;
-    list-style: center;
-}
-.section-3{
     display: flex;
     justify-content: center;
-    margin: 0;   
     
 }
 
-button{
-    width: 150px;
-    cursor: pointer;
-    height: 34px;
-    border-radius: 4px;
-    
+.container2{
+    display: flex;
+    justify-content: center;
 }
+
+.section-3{  
+    width: 350px;  
+    display: flex;
+    /* background-color: brown; */
+    justify-content: center;
+    flex-wrap: wrap;
+        
+}
+
+.div-link{
+    background-color: rgb(99, 99, 138);
+    width: 70px;
+    height: 70px;
+    border: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+
